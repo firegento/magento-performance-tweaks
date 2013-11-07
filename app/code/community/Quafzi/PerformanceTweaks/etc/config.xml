@@ -21,6 +21,7 @@
         <catalog_resource>
           <rewrite>
             <product_type_configurable_product_collection>Quafzi_PerformanceTweaks_Model_Catalog_Resource_Product_Type_Configurable_Product_Collection</product_type_configurable_product_collection>
+          </rewrite>
         </catalog_resource>
         <eav>
           <rewrite>
