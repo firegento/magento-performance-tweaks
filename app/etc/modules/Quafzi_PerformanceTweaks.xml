@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quafzi_PerformanceTweaks>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Quafzi_PerformanceTweaks>
+    </modules>
+</config>
