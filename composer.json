@@ -1,0 +1,15 @@
+{
+    "name": "quafzi/performance-tweaks",
+    "type": "magento-module",
+    "description": "This extension is based on the slides of Ivan Chepurnyi, available at http://de.slideshare.net/ivanchepurnyi/magento-performance.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Birke",
+            "email": "tbirke@netextreme.de"
+        }
+    ],
+    "require": {
+
+    }
+}
