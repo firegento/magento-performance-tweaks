@@ -50,7 +50,7 @@
       <sales_quote_collect_totals_before>
         <observers>
           <preload_price_rules>
-            <class>Mage_CatalogRule_Model_Observer</class>
+            <class>Quafzi_PerformanceTweaks_Model_CatalogRule_Observer</class>
             <method>preloadPriceRules</method>
           </preload_price_rules>
         </observers>
