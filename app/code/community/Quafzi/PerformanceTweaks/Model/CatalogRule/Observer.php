@@ -10,7 +10,7 @@
  * on the product. This method dispatches "catalog_product_get_final_price"
  * event, that is observed by Mage_CatalogRule module.
  */
-class Quafzi_PerformanceTweaks_Model_Rule_Observer extends Mage_CatalogRule_Model_Observer
+class Quafzi_PerformanceTweaks_Model_CatalogRule_Observer extends Mage_CatalogRule_Model_Observer
 {
     protected $_preloadedPrices = array();
 
