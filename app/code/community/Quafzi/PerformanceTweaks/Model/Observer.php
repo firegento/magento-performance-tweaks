@@ -42,7 +42,8 @@ class Quafzi_PerformanceTweaks_Model_Observer
             $cacheKeyData = array(
                 Mage_Cms_Model_Block::CACHE_TAG,
                 $block->getBlockId(),
-                Mage::app()->getStore()->getId()
+                Mage::app()->getStore()->getId(),
+                intval(Mage::app()->getStore()->isCurrentlySecure())
             );
             $block->setCacheKey(implode('_', $cacheKeyData));
             $block->setCacheTags(array(Mage_Cms_Model_Block::CACHE_TAG));
