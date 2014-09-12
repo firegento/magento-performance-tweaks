@@ -4,6 +4,9 @@
         <Quafzi_PerformanceTweaks>
             <active>true</active>
             <codePool>community</codePool>
+            <depends>
+                <Mage_Reports/>
+            </depends>
         </Quafzi_PerformanceTweaks>
     </modules>
 </config>
