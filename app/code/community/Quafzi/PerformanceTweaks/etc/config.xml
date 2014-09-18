@@ -18,17 +18,17 @@
     <models>
       <quafzi_performancetweaks>
         <class>Quafzi_PerformanceTweaks_Model</class>
-        <catalog_resource>
-          <rewrite>
-            <product_type_configurable_product_collection>Quafzi_PerformanceTweaks_Model_Catalog_Resource_Product_Type_Configurable_Product_Collection</product_type_configurable_product_collection>
-          </rewrite>
-        </catalog_resource>
-        <eav>
-          <rewrite>
-            <entity_attribute_source_table>Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table</entity_attribute_source_table>
-          </rewrite>
-        </eav>
       </quafzi_performancetweaks>
+      <catalog_resource>
+        <rewrite>
+          <product_type_configurable_product_collection>Quafzi_PerformanceTweaks_Model_Catalog_Resource_Product_Type_Configurable_Product_Collection</product_type_configurable_product_collection>
+        </rewrite>
+      </catalog_resource>
+      <eav>
+        <rewrite>
+          <entity_attribute_source_table>Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table</entity_attribute_source_table>
+        </rewrite>
+      </eav>
     </models>
     <events>
       <controller_action_layout_load_before>
