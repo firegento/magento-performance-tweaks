@@ -15,7 +15,7 @@
  * That allows to preload options once and reuse them instead of doing calls to db all the time
  *
  */
-class Quafzi_PerformanceTweaks_Model_Resource_Attribute_Source_Table
+class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
     extends Mage_Eav_Model_Entity_Attribute_Source_Table
 {
     /**
