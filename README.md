@@ -1,5 +1,5 @@
-Quafzi_PerformanceTweaks
-========================
+FireGento_PerformanceTweaks
+===========================
 
 This extension is based on the slides of Ivan Chepurnyi, available at
 http://de.slideshare.net/ivanchepurnyi/magento-performance.
@@ -7,9 +7,10 @@ http://de.slideshare.net/ivanchepurnyi/magento-performance.
 Facts
 -----
 
-* Version: check [config.xml](https://github.com/quafzi/magento-performance-tweaks/blob/master/app/code/community/Quafzi/PerformanceTweaks/etc/config.xml)
-* Repository: https://github.com/quafzi/magento-performance-tweaks/
-* Composer name: `quafzi/performance-tweaks`
+* Version: check
+* [config.xml](https://github.com/firegento/performance-tweaks/blob/master/app/code/community/FireGento/PerformanceTweaks/etc/config.xml)
+* Repository: https://github.com/firegento/performance-tweaks/
+* Composer name: `firegento/performance-tweaks`
 
 Drawbacks
 ---------
@@ -33,7 +34,7 @@ done for 33386f57393ffb41602fd93255de8dae2f852ce5
 Support
 -------
 If you encounter any problems or bugs, please create an issue on
-[GitHub](https://github.com/quafzi/magento-performance-tweaks/issues).
+[GitHub](https://github.com/firegento/performance-tweaks/issues).
 
 Contribution
 ------------

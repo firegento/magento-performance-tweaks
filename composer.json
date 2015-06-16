@@ -1,5 +1,5 @@
 {
-    "name": "quafzi/performance-tweaks",
+    "name": "firegento/performance-tweaks",
     "type": "magento-module",
     "description": "This extension is based on the slides of Ivan Chepurnyi, available at http://de.slideshare.net/ivanchepurnyi/magento-performance.",
     "license": "MIT",
@@ -9,7 +9,10 @@
             "email": "tbirke@netextreme.de"
         }
     ],
+    "repositories": [
+      { "type": "composer", "url": "http://packages.firegento.com" }
+    ],
     "require": {
-
+      "firegento/phpcs": "1.1.0"
     }
 }

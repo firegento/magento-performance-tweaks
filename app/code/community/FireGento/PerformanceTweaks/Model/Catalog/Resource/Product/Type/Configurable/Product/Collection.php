@@ -9,21 +9,21 @@
  *
  * PHP version 5
  *
- * @category Mage
- * @package  Quafzi_PerformanceTweaks
- * @author   Thomas Birke <tbirke@netextreme.de>
- * @license  MIT http://opensource.org/licenses/MIT
+ * @category FireGento
+ * @package  FireGento_PerformanceTweaks
+ * @author   FireGento Team <team@firegento.com>
+ * @license  http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
  */
 
 /**
- * Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
+ * FireGento_PerformanceTweaks_Model_Catalog_Resource_Product_Type_Configurable_Product_Collection
  *
- * @category Mage
- * @package  Quafzi_PerformanceTweaks
- * @author   Thomas Birke <tbirke@netextreme.de>
- * @license  MIT http://opensource.org/licenses/MIT
+ * @category FireGento
+ * @package  FireGento_PerformanceTweaks
+ * @author   FireGento Team <team@firegento.com>
+ * @license  http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
  */
-class Quafzi_PerformanceTweaks_Model_Catalog_Resource_Product_Type_Configurable_Product_Collection
+class FireGento_PerformanceTweaks_Model_Catalog_Resource_Product_Type_Configurable_Product_Collection
     extends Mage_Catalog_Model_Resource_Product_Type_Configurable_Product_Collection
 {
     /**

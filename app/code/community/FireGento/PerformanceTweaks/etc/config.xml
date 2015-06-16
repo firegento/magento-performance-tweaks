@@ -1,32 +1,33 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @category Mage
- * @package  Quafzi_PerformanceTweaks
- * @author   Thomas Birke <tbirke@netextreme.de>
- * @license  MIT
- * @see http://de.slideshare.net/ivanchepurnyi/magento-performance
+ * see http://de.slideshare.net/ivanchepurnyi/magento-performance
+ *
+ * @category FireGento
+ * @package  FireGento_PerformanceTweaks
+ * @author   FireGento Team <team@firegento.com>
+ * @license  http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
  */
 -->
 <config>
   <modules>
-    <Quafzi_PerformanceTweaks>
-      <version>0.1.0</version>
-    </Quafzi_PerformanceTweaks>
+    <FireGento_PerformanceTweaks>
+      <version>1.0.0</version>
+    </FireGento_PerformanceTweaks>
   </modules>
   <global>
     <models>
-      <quafzi_performancetweaks>
-        <class>Quafzi_PerformanceTweaks_Model</class>
-      </quafzi_performancetweaks>
+      <firegento_performancetweaks>
+        <class>FireGento_PerformanceTweaks_Model</class>
+      </firegento_performancetweaks>
       <catalog_resource>
         <rewrite>
-          <product_type_configurable_product_collection>Quafzi_PerformanceTweaks_Model_Catalog_Resource_Product_Type_Configurable_Product_Collection</product_type_configurable_product_collection>
+          <product_type_configurable_product_collection>FireGento_PerformanceTweaks_Model_Catalog_Resource_Product_Type_Configurable_Product_Collection</product_type_configurable_product_collection>
         </rewrite>
       </catalog_resource>
       <eav>
         <rewrite>
-          <entity_attribute_source_table>Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table</entity_attribute_source_table>
+          <entity_attribute_source_table>FireGento_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table</entity_attribute_source_table>
         </rewrite>
       </eav>
     </models>
@@ -34,7 +35,7 @@
       <controller_action_layout_load_before>
         <observers>
           <remove_entity_id_from_layout_to_improve_cachability>
-            <class>Quafzi_PerformanceTweaks_Model_Observer</class>
+            <class>FireGento_PerformanceTweaks_Model_Observer</class>
             <method>removeEntityIdFromLayout</method>
           </remove_entity_id_from_layout_to_improve_cachability>
         </observers>
@@ -42,7 +43,7 @@
       <core_block_abstract_to_html_before>
         <observers>
           <enable_cms_block_caching>
-            <class>Quafzi_PerformanceTweaks_Model_Observer</class>
+            <class>FireGento_PerformanceTweaks_Model_Observer</class>
             <method>enableCmsBlockCaching</method>
           </enable_cms_block_caching>
         </observers>
@@ -50,7 +51,7 @@
       <sales_quote_collect_totals_before>
         <observers>
           <preload_price_rules>
-            <class>Quafzi_PerformanceTweaks_Model_CatalogRule_Observer</class>
+            <class>FireGento_PerformanceTweaks_Model_CatalogRule_Observer</class>
             <method>preloadPriceRules</method>
           </preload_price_rules>
         </observers>
@@ -178,7 +179,7 @@
   <phpunit>
     <suite>
       <modules>
-        <Quafzi_PerformanceTweaks />
+        <FireGento_PerformanceTweaks />
       </modules>
     </suite>
   </phpunit>

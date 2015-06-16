@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Quafzi_PerformanceTweaks>
+        <FireGento_PerformanceTweaks>
             <active>true</active>
             <codePool>community</codePool>
             <depends>
                 <Mage_Reports/>
             </depends>
-        </Quafzi_PerformanceTweaks>
+        </FireGento_PerformanceTweaks>
     </modules>
 </config>
