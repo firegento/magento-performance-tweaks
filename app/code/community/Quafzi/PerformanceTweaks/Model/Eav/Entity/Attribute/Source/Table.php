@@ -1,9 +1,9 @@
 <?php
 /**
- * @see http://bit.ly/mageoption
- * @see http://de.slideshare.net/ivanchepurnyi/magento-performance
+ * see http://bit.ly/mageoption
+ * see http://de.slideshare.net/ivanchepurnyi/magento-performance
  *
- * @category Layered Navigation
+ * refers to Layered Navigation
  *
  * For each attribute you have and that is marked as filterable,
  * Magento will call getAllOptions() of attribute source model.
@@ -14,6 +14,21 @@
  * Optimized version of attribute source options model
  * That allows to preload options once and reuse them instead of doing calls to db all the time
  *
+ * PHP version 5
+ *
+ * @category Mage
+ * @package  Quafzi_PerformanceTweaks
+ * @author   Thomas Birke <tbirke@netextreme.de>
+ * @license  MIT http://opensource.org/licenses/MIT
+ */
+
+/**
+ * Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
+ *
+ * @category Mage
+ * @package  Quafzi_PerformanceTweaks
+ * @author   Thomas Birke <tbirke@netextreme.de>
+ * @license  MIT http://opensource.org/licenses/MIT
  */
 class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
     extends Mage_Eav_Model_Entity_Attribute_Source_Table
@@ -42,9 +57,10 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
     /**
      * Retrieve store options from preloaded hashes
      *
-     * @param int $storeId
-     * @param int $attributeId
-     * @param string $type
+     * @param  int    $storeId     Store ID
+     * @param  int    $attributeId Attribute ID
+     * @param  string $type        Type
+     *
      * @return array
      */
     protected static function _getPreloadedOptions($storeId, $attributeId, $type)
@@ -63,7 +79,7 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
     /**
      * Preloads values for option values on the first call
      *
-     * @param int $storeId
+     * @param int $storeId Store ID
      */
     protected static function _preloadOptions($storeId)
     {
@@ -102,8 +118,9 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
     /**
      * Overridden to manipulate options
      *
-     * @param bool $withEmpty
-     * @param bool $defaultValues
+     * @param  bool $withEmpty     Allow empty ones
+     * @param  bool $defaultValues Use default values
+     *
      * @return array
      */
     public function getAllOptions($withEmpty = true, $defaultValues = false)
@@ -137,9 +154,10 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
     /**
      * Returns option key for hash generation
      *
-     * @param int $storeId
-     * @param int $optionId
-     * @param string $type
+     * @param  int    $storeId  Store ID
+     * @param  int    $optionId Option ID
+     * @param  string $type     Type
+     *
      * @return string
      */
     protected static function _getCombinedKey($storeId, $optionId, $type)
@@ -150,8 +168,9 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
     /**
      * Retrieves option label from preloaded options hash array
      *
-     * @param int|string $value
-     * @return array|bool|string
+     * @param  int|string $value Option value
+     *
+     * @return array|bool|string Option text
      */
     public function getOptionText($value)
     {

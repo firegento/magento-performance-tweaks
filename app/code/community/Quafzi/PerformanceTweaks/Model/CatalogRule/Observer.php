@@ -1,19 +1,42 @@
 <?php
 /**
- * @see http://de.slideshare.net/ivanchepurnyi/magento-performance
- * @see http://bit.ly/magerule
+ * see http://de.slideshare.net/ivanchepurnyi/magento-performance
+ * see http://bit.ly/magerule
  *
- * @category CatalogRule
+ * refers to CatalogRule
  *
  * Each time when Magento calls ``collectTotals()`` on a quote object,
  * it walks through all items in the quote and invokes ``getFinalPrice()``
  * on the product. This method dispatches "catalog_product_get_final_price"
  * event, that is observed by Mage_CatalogRule module.
+ *
+ * PHP version 5
+ *
+ * @category Mage
+ * @package  Quafzi_PerformanceTweaks
+ * @author   Thomas Birke <tbirke@netextreme.de>
+ * @license  MIT http://opensource.org/licenses/MIT
+ */
+
+/**
+ * Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
+ *
+ * @category Mage
+ * @package  Quafzi_PerformanceTweaks
+ * @author   Thomas Birke <tbirke@netextreme.de>
+ * @license  MIT http://opensource.org/licenses/MIT
  */
 class Quafzi_PerformanceTweaks_Model_CatalogRule_Observer extends Mage_CatalogRule_Model_Observer
 {
     protected $_preloadedPrices = array();
 
+    /**
+     * preload price rules
+     *
+     * @param  Varien_Event_Observer $observer Observer
+     *
+     * @return void
+     */
     public function preloadPriceRules(Varien_Event_Observer $observer)
     {
         $quote = $observer->getQuote();
