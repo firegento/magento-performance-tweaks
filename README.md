@@ -11,6 +11,19 @@ Facts
 * Repository: https://github.com/quafzi/magento-performance-tweaks/
 * Composer name: `quafzi/performance-tweaks`
 
+
+
+time differences
+--------------------------------
+
+profiles done via [tideways.io](https://tideways.io)
+
+#### time difference on category page
+
+done for 33386f57393ffb41602fd93255de8dae2f852ce5
+
+![category tideways profile diff](res/quafzi_magento-performance-tweaks_category.png)
+
 Support
 -------
 If you encounter any problems or bugs, please create an issue on
