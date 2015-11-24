@@ -38,21 +38,21 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
      *
      * @var array
      */
-    protected static $_preloadedOptions = array();
+    protected static $_my_preloadedOptions = array();
 
     /**
      * List of stores where default values already preloaded
      *
      * @var array
      */
-    protected static $_preloadedOptionsStores = array();
+    protected static $_my_preloadedOptionsStores = array();
 
     /**
      * List of preloaded options for each option id
      *
      * @var array
      */
-    protected static $_preloadedOptionHash = array();
+    protected static $_my_preloadedOptionHash = array();
 
     /**
      * Retrieve store options from preloaded hashes
@@ -63,14 +63,14 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
      *
      * @return array
      */
-    protected static function _getPreloadedOptions($storeId, $attributeId, $type)
+    protected function _getPreloadedOptions($storeId, $attributeId, $type)
     {
-        self::_preloadOptions($storeId);
+        $this->_preloadOptions($storeId);
 
-        $key = self::_getCombinedKey($storeId, $attributeId, 'store');
+        $key = $this->_getCombinedKey($storeId, $attributeId, 'store');
 
-        if (isset(self::$_preloadedOptions[$key])) {
-            return self::$_preloadedOptions[$key];
+        if (isset(self::$_my_preloadedOptions[$key])) {
+            return self::$_my_preloadedOptions[$key];
         }
 
         return array();
@@ -81,12 +81,12 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
      *
      * @param int $storeId Store ID
      */
-    protected static function _preloadOptions($storeId)
+    protected function _preloadOptions($storeId)
     {
-        if (isset(self::$_preloadedOptionsStores[$storeId])) {
+        if (isset(self::$_my_preloadedOptionsStores[$storeId])) {
             return;
         }
-        self::$_preloadedOptionsStores[$storeId] = true;
+        self::$_my_preloadedOptionsStores[$storeId] = true;
         $collection = Mage::getResourceModel('eav/entity_attribute_option_collection')
             ->setPositionOrder('asc')
             ->setStoreFilter($storeId);
@@ -99,16 +99,16 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
         $options = $collection->getData();
 
         foreach ($options as $option) {
-            $optionKey = self::_getCombinedKey($storeId, $option['option_id'], 'store');
-            $storeKey = self::_getCombinedKey($storeId, $option['attribute_id'], 'store');
-            $defaultKey = self::_getCombinedKey($storeId, $option['attribute_id'], 'default');
+            $optionKey = $this->_getCombinedKey($storeId, $option['option_id'], 'store');
+            $storeKey = $this->_getCombinedKey($storeId, $option['attribute_id'], 'store');
+            $defaultKey = $this->_getCombinedKey($storeId, $option['attribute_id'], 'default');
 
-            self::$_preloadedOptionHash[$optionKey] = $option['value'];
-            self::$_preloadedOptions[$storeKey][] = array(
+            self::$_my_preloadedOptionHash[$optionKey] = $option['value'];
+            self::$_my_preloadedOptions[$storeKey][] = array(
                 'value' => $option['option_id'],
                 'label' => $option['value']
             );
-            self::$_preloadedOptions[$defaultKey][] = array(
+            self::$_my_preloadedOptions[$defaultKey][] = array(
                 'value' => $option['option_id'],
                 'label' => $option['default_value']
             );
@@ -160,7 +160,7 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
      *
      * @return string
      */
-    protected static function _getCombinedKey($storeId, $optionId, $type)
+    protected function _getCombinedKey($storeId, $optionId, $type)
     {
         return $storeId . '|' . $optionId . '|' . $type;
     }
@@ -187,8 +187,8 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
             $values = array();
             foreach ($value as $item) {
                 $key = self::_getCombinedKey($storeId, $item, 'store');
-                if (isset(self::$_preloadedOptionHash[$key])) {
-                    $values[] = self::$_preloadedOptionHash[$key];
+                if (isset(self::$_my_preloadedOptionHash[$key])) {
+                    $values[] = self::$_my_preloadedOptionHash[$key];
                 }
             }
             return $values;
@@ -196,8 +196,8 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
 
         $key = self::_getCombinedKey($storeId, $value, 'store');
 
-        if (isset(self::$_preloadedOptionHash[$key])) {
-            return self::$_preloadedOptionHash[$key];
+        if (isset(self::$_my_preloadedOptionHash[$key])) {
+            return self::$_my_preloadedOptionHash[$key];
         }
         return false;
     }
