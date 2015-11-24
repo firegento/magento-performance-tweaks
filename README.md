@@ -11,7 +11,13 @@ Facts
 * Repository: https://github.com/quafzi/magento-performance-tweaks/
 * Composer name: `quafzi/performance-tweaks`
 
+Drawbacks
+---------
 
+This extension disables visitor logs and directly impacts product compare and recently viewed.
+Possible symptoms:
+- Not logged in users cannot use compare
+- Logged in users share the whole compare table
 
 time differences
 --------------------------------
