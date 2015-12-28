@@ -67,7 +67,7 @@ class Quafzi_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table
     {
         self::_preloadOptions($storeId);
 
-        $key = self::_getCombinedKey($storeId, $attributeId, 'store');
+        $key = self::_getCombinedKey($storeId, $attributeId, $type);
 
         if (isset(self::$_preloadedOptions[$key])) {
             return self::$_preloadedOptions[$key];
