@@ -7,8 +7,7 @@ http://de.slideshare.net/ivanchepurnyi/magento-performance.
 Facts
 -----
 
-* Version: check
-* [config.xml](https://github.com/firegento/performance-tweaks/blob/master/app/code/community/FireGento/PerformanceTweaks/etc/config.xml)
+* Version: check [config.xml](https://github.com/firegento/performance-tweaks/blob/master/app/code/community/FireGento/PerformanceTweaks/etc/config.xml)
 * Repository: https://github.com/firegento/performance-tweaks/
 * Composer name: `firegento/performance-tweaks`
 
