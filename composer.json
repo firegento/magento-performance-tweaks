@@ -2,7 +2,7 @@
     "name": "firegento/performance-tweaks",
     "type": "magento-module",
     "description": "This extension is based on the slides of Ivan Chepurnyi, available at http://de.slideshare.net/ivanchepurnyi/magento-performance.",
-    "license": "MIT",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "Thomas Birke",

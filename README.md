@@ -39,3 +39,8 @@ Contribution
 ------------
 Any contribution is highly welcome. The best possibility to provide any code is to open
 a [pull request on GitHub](https://help.github.com/articles/using-pull-requests).
+
+
+License
+-------
+[GNU General Public License, version 3 (GPLv3)](http://opensource.org/licenses/gpl-3.0)
