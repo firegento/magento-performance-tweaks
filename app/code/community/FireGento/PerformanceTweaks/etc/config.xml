@@ -25,6 +25,11 @@
           <product_type_configurable_product_collection>FireGento_PerformanceTweaks_Model_Catalog_Resource_Product_Type_Configurable_Product_Collection</product_type_configurable_product_collection>
         </rewrite>
       </catalog_resource>
+      <log>
+          <rewrite>
+              <visitor>FireGento_PerformanceTweaks_Model_Log_Visitor</visitor>
+          </rewrite>
+      </log>
       <eav>
         <rewrite>
           <entity_attribute_source_table>FireGento_PerformanceTweaks_Model_Eav_Entity_Attribute_Source_Table</entity_attribute_source_table>
