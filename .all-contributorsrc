@@ -53,6 +53,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "kkrieger85",
+      "name": "Kevin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4435523?v=4",
+      "profile": "http://kkrieger.de",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "projectName": "magento-performance-tweaks",
