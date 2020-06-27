@@ -41,6 +41,14 @@ Any contribution is highly welcome. The best possibility to provide any code is 
 a [pull request on GitHub](https://help.github.com/articles/using-pull-requests).
 
 
+Contributers
+------------
+ <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+ <!-- ALL-CONTRIBUTORS-LIST:END -->
+ 
 License
 -------
 [GNU General Public License, version 3 (GPLv3)](http://opensource.org/licenses/gpl-3.0)
+
+
