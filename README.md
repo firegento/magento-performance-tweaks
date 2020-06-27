@@ -41,7 +41,7 @@ Any contribution is highly welcome. The best possibility to provide any code is 
 a [pull request on GitHub](https://help.github.com/articles/using-pull-requests).
 
 
-Contributers
+Contributors
 ------------
  <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
