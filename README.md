@@ -60,6 +60,7 @@ Contributors
     <td align="center"><a href="https://erfanimani.com/"><img src="https://avatars3.githubusercontent.com/u/930470?v=4" width="100px;" alt=""/><br /><sub><b>Erfan</b></sub></a></td>
     <td align="center"><a href="http://flyingmana.name"><img src="https://avatars3.githubusercontent.com/u/237319?v=4" width="100px;" alt=""/><br /><sub><b>Daniel Fahlke</b></sub></a></td>
     <td align="center"><a href="http://www.jeroenvermeulen.eu/"><img src="https://avatars1.githubusercontent.com/u/658024?v=4" width="100px;" alt=""/><br /><sub><b>Jeroen Vermeulen</b></sub></a></td>
+    <td align="center"><a href="https://github.com/infabo"><img src="https://avatars0.githubusercontent.com/u/3999104?v=4" width="100px;" alt=""/><br /><sub><b>Ingo Fabbri</b></sub></a></td>
   </tr>
 </table>
 

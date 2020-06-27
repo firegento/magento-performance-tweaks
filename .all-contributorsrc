@@ -107,6 +107,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "infabo",
+      "name": "Ingo Fabbri",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3999104?v=4",
+      "profile": "https://github.com/infabo",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "projectName": "magento-performance-tweaks",
