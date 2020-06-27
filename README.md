@@ -56,6 +56,9 @@ Contributors
     <td align="center"><a href="http://kkrieger.de"><img src="https://avatars2.githubusercontent.com/u/4435523?v=4" width="100px;" alt=""/><br /><sub><b>Kevin</b></sub></a></td>
     <td align="center"><a href="https://www.diglin.com"><img src="https://avatars2.githubusercontent.com/u/1337461?v=4" width="100px;" alt=""/><br /><sub><b>Sylvain Rayé</b></sub></a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://erfanimani.com/"><img src="https://avatars3.githubusercontent.com/u/930470?v=4" width="100px;" alt=""/><br /><sub><b>Erfan</b></sub></a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
