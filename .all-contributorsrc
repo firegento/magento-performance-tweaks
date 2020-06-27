@@ -44,6 +44,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "sylvainraye",
+      "name": "Sylvain Rayé",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1337461?v=4",
+      "profile": "https://www.diglin.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "projectName": "magento-performance-tweaks",
