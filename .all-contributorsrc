@@ -25,6 +25,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "sim",
+      "name": "sim",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/71776?v=4",
+      "profile": "https://github.com/SiM",
+      "contributions": [
+        "review",
+        "maintenance"
+      ]
     }
   ],
   "projectName": "magento-performance-tweaks",
