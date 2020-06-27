@@ -80,6 +80,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "erfanimani",
+      "name": "Erfan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/930470?v=4",
+      "profile": "https://erfanimani.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "projectName": "magento-performance-tweaks",
