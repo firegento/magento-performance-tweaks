@@ -58,6 +58,7 @@ Contributors
   </tr>
   <tr>
     <td align="center"><a href="https://erfanimani.com/"><img src="https://avatars3.githubusercontent.com/u/930470?v=4" width="100px;" alt=""/><br /><sub><b>Erfan</b></sub></a></td>
+    <td align="center"><a href="http://flyingmana.name"><img src="https://avatars3.githubusercontent.com/u/237319?v=4" width="100px;" alt=""/><br /><sub><b>Daniel Fahlke</b></sub></a></td>
   </tr>
 </table>
 
