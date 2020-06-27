@@ -51,6 +51,7 @@ Contributors
     <td align="center"><a href="http://www.fabian-blechschmidt.de"><img src="https://avatars1.githubusercontent.com/u/379680?v=4" width="100px;" alt=""/><br /><sub><b>Fabian Blechschmidt</b></sub></a></td>
     <td align="center"><a href="https://www.simonsprankel.com/"><img src="https://avatars1.githubusercontent.com/u/930199?v=4" width="100px;" alt=""/><br /><sub><b>Simon Sprankel</b></sub></a></td>
     <td align="center"><a href="https://github.com/quafzi"><img src="https://avatars1.githubusercontent.com/u/164261?v=4" width="100px;" alt=""/><br /><sub><b>Thomas Birke</b></sub></a></td>
+    <td align="center"><a href="https://github.com/infabo"><img src="https://avatars0.githubusercontent.com/u/3999104?v=4" width="100px;" alt=""/><br /><sub><b>Ingo Fabbri</b></sub></a></td>
   </tr>
 </table>
 
