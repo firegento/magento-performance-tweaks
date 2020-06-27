@@ -14,10 +14,17 @@ Facts
 Drawbacks
 ---------
 
-This extension disables visitor logs and directly impacts product compare and recently viewed.
+This extension disables visitor logs and directly impacts **product compare and recently viewed** feature.
 Possible symptoms:
 - Not logged in users cannot use compare
 - Logged in users share the whole compare table
+
+**Layout**
+
+CAUTION: Widgets based on category id and product id handles WILL NOT WORK as Entity_id [layout handles will be removed](https://github.com/firegento/magento-performance-tweaks/blob/master/app/code/community/FireGento/PerformanceTweaks/Model/Observer.php#L28)
+
+SOLUTION: Use "custom layout update xml" attribute on entity level instead!
+
 
 time differences
 --------------------------------
