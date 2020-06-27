@@ -98,6 +98,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jeroenvermeulen",
+      "name": "Jeroen Vermeulen",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/658024?v=4",
+      "profile": "http://www.jeroenvermeulen.eu/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "projectName": "magento-performance-tweaks",
