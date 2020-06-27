@@ -54,6 +54,7 @@ Contributors
     <td align="center"><a href="https://github.com/toonvd"><img src="https://avatars1.githubusercontent.com/u/1227745?v=4" width="100px;" alt=""/><br /><sub><b>Toon Van Dooren</b></sub></a></td>
     <td align="center"><a href="https://github.com/LlZARD"><img src="https://avatars1.githubusercontent.com/u/462687?v=4" width="100px;" alt=""/><br /><sub><b>LlZARD</b></sub></a></td>
     <td align="center"><a href="http://kkrieger.de"><img src="https://avatars2.githubusercontent.com/u/4435523?v=4" width="100px;" alt=""/><br /><sub><b>Kevin</b></sub></a></td>
+    <td align="center"><a href="https://www.diglin.com"><img src="https://avatars2.githubusercontent.com/u/1337461?v=4" width="100px;" alt=""/><br /><sub><b>Sylvain Rayé</b></sub></a></td>
   </tr>
 </table>
 
