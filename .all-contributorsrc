@@ -35,6 +35,15 @@
         "review",
         "maintenance"
       ]
+    },
+    {
+      "login": "quafzi",
+      "name": "Thomas Birke",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/164261?v=4",
+      "profile": "https://github.com/quafzi",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "projectName": "magento-performance-tweaks",
